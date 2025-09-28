@@ -1,0 +1,7 @@
+pandas
+numpy
+regex
+matplotlib
+unidecode
+tiktoken==0.7.0
+pyyaml

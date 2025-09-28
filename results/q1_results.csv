@@ -1,0 +1,106 @@
+id,condition,prompt,gold,prediction,correct,fluency
+1,L1EN,What is the capital of Japan? Answer in English only.,Tokyo,Tokyo,5,
+2,L1EN,Compute 247 + 58. Give only the final number in English digits.,305,Two hundred forty-seven plus fifty-eight equals three hundred twenty-five.,5,
+3,L1EN,Is 113 a prime number? Answer with 'prime' or 'composite'.,prime,Composite,4,
+4,L1EN,Sort these numbers in ascending order: 7,9'.,"The number 7 is already in ascending order, as it is the smallest of the numbers you provided. If you have more numbers to sort, I can help with that too!",5,
+5,L1EN,Convert 5 kilometers to meters. Return only the number.,5000,5000 (meters),5,
+6,L1EN,Convert 25°C to Fahrenheit. Return only the integer.,77,77 (rounded down),3,
+7,L1EN,Count the vowels in the word 'Education'. Return only the number.,5,"The word 'Education' contains 3 vowels: E, U, and A.",4,
+8,L1EN,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,3,
+9,L1EN,Classify the sentiment of the sentence 'I love this movie' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,4,
+10,L1EN,Extract the country code from this phone number: +91 98765 00000. Return only the digits.,91,The country code for the given phone number is 91.,5,
+11,L1EN,Find the minimum of these numbers: 12,In numbers me se sabse chhota batao: 12,"The number you provided, 12, is already a single number. Since it's not a set or a collection of numbers, there's no need to find the minimum as 12 is the only number in this case. If you meant a different scenario where 12 is one of several numbers",4,
+12,L1EN,Compute the average of 4 and 10. Return only the number.,7,The average of 4 and 10 is 7.,4,
+13,L1EN,What is the capital of Australia? Answer in English only.,Canberra,The capital city of Australia is Canberra.,5,
+14,L1EN,Is 0 even or odd? Return 'even' or 'odd'.,even,0 is an even number.,3,
+15,L1EN,Convert 7:05 PM to 24-hour format HH:MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,3,
+16,L1EN,Multiply 13 × 4. Return only the final number.,52,The result of multiplying 13 by 4 is 52.,3,
+17,L1EN,What is the next calendar date after 2025-02-28? Use YYYY-MM-DD.,2025-03-01,"The next calendar date after February 28, 2025, does not exist because there is no March 1 in a leap year when February has only 28 days. The next day following February 28 would be March 2 in a non-leap year (February",4,
+18,L1EN,How many words are in 'Hello world from AI'? Return only the number.,4,There are 7 words in 'Hello world from AI'.,4,
+19,L1EN,Find the longest word in 'red blue purple'. Return only the word.,purple,The longest word in 'red blue purple' is 'purple'.,5,
+20,L1EN,Return the first three letters of 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,4,
+1,L2MR,जपानची राजधानी कोणती? उत्तर फक्त इंग्रजीत द्या.,Tokyo,Japan's capital city is Tokyo. (Fact in English: Japan's capital city is Tokyo.),5,
+2,L2MR,247 + 58 ची बेरीज करा. फक्त अंतिम संख्या इंग्रजी अंकात द्या.,305,"The sum of 247 and 58 is 305. In English, this number is written as ""Three hundred and five"".",5,
+3,L2MR,113 अभाज्य संख्या आहे का? फक्त 'prime' किंवा 'composite' असे उत्तर द्या.,prime,"113 एक 'composite' संख्या होती है, क्योकि यह 3 और 43 के बहुतव है। इसल",4,
+4,L2MR, 2,9'.,"Hello! How can I assist you today? If you have a question or need help with something, feel free to ask. If you just typed ""2"" for no particular reason, here are some fun facts about the number 2:
+
+1. It is the smallest prime number.
+2. In mathemat",0,
+5,L2MR,5 किमी मीटरमध्ये रूपांतरित करा. फक्त संख्या द्या.,5000,5 किलोमीटर (5000 मीटर) को मीटर में परिवर्तित करने के लिए अधिकारी,3,
+6,L2MR,25°C चे फॅरेनहाइट मध्ये रूपांतर करा. फक्त पूर्णांक द्या.,77,25°C अथवा 25 सेलियास (Celsius) मध्ये फ़ारेनहाइट (Fahrenheit) रूपांतर करने के,3,
+7,L2MR,'Education' या शब्दातील स्वर मोजा. फक्त संख्या द्या.,5,"The Solfeggio scale, a six-tone musical scale believed to have been used in Gregorian chants and other forms of sacred music, includes the syllables 'Ut', 'Re', 'Mi', 'Fa', 'Sol', and 'La'. However, these are not",0,
+8,L2MR,'CAT' या शब्दातील अक्षरे उलटी करा.,TAC,"ताता या शब्दातील अक्षरे उलटावे, तो हमें 'TAT' होगा।",4,
+9,L2MR,'I love this movie' या वाक्याचा भाव Positive की Negative ते ठरवा. फक्त 'Positive' किंवा 'Negative' द्या.,Positive,"यह वाक्य 'Positive' है, क्योकि इसमें पसंद करना चाहिए है।",1,
+10,L2MR,या फोन क्रमांकातून देशकोड काढा: +91 98765 00000. फक्त अंक द्या.,91,"अधिकारी से विकल्पित है कि यह भारत (India) से है। इसके लिए, देशकोड 4",5,
+11,L2MR, 3,In numbers me se sabse chhota batao: 12,"Hello! It seems like you've sent a number, but I'm not sure what you'd like to discuss about it. Here are a few possibilities:
+
+1. The number 3 has some interesting mathematical properties and symbolism in various cultures. For example, it's the first odd prime",0,
+12,L2MR,4 आणि 10 यांचा सरासरी काढा. फक्त संख्या द्या.,7,"4 + 10 = 14
+
+Therefore, the sum of 4 and 10 is 14.",5,
+13,L2MR,ऑस्ट्रेलियाची राजधानी कोणती? उत्तर फक्त इंग्रजीत द्या.,Canberra,The capital city of Australia is Canberra. (Fact in English),0,
+14,L2MR,0 सम आहे का विषम? फक्त 'even' किंवा 'odd' द्या.,even,"0 एक शून्य चिфर असतात, जिसके लिये 'even' (सम) नहीं और 'odd' (विषम) होत",0,
+15,L2MR,7:05 PM २४-तास HH:MM स्वरूपात बदला.,19:05,"7:05 PM को 24-hour format (HH:MM) में बदलने के लिए, हजार और सेकंड को हटाया",0,
+16,L2MR,13 × 4 गुणाकार करा. फक्त अंतिम संख्या द्या.,52,13 घनाकार 4 करा है 52 (Fifty-two) ज्यांसकार होते चलाव. अंतिम संख्य,4,
+17,L2MR,2025-02-28 नंतरची पुढील तारीख कोणती? YYYY-MM-DD स्वरूप वापरा.,2025-03-01,"2025-02-29 यसा दिनाचे तारीख नाही, क्षणिक तारीखांच्या शुक्ल पढ",0,
+18,L2MR,'Hello world from AI' मध्ये किती शब्द आहेत? फक्त संख्या द्या.,4,"असे वर आहेत, 'Hello world from AI' शब्दात 10 शब्द आहेत.
+
+'Hello', 'world', 'from', 'AI' एक-एक शब्",5,
+19,L2MR,'red blue purple' मधील सर्वात मोठा शब्द शोधा. फक्त तो शब्द द्या.,purple,"अहा! आपको कोई एंग्लिश वर्णन चाहते हैं, तो 'red blue purple' में हमेशा एक रंग",0,
+20,L2MR,'Elephant' या शब्दातील पहिले तीन अक्षरे द्या.,Ele,"शब्द 'Elephant' मराठी भाषावर तीन अक्षरांत नहीं द्या जासतात, किन्तु",0,
+1,L3HINGLISH,Japan ki rajdhani kya hai? Answer English mein do.,Tokyo,"Japan ka rajdhani Tokyo hai, jo Angreji mein ""Tokyo"" kahta hai. Is shahr ko 1923 mein Great Kanto Earthquake ke baad re-establish kiya gaya tha. Aajkal yeh shahr",4,
+2,L3HINGLISH,247 + 58 ka sum nikalo. Sirf final number English digits mein do.,305,"The sum of 247 and 58,000 is 58,247. In English digits only, the answer is 58247.",3,
+3,L3HINGLISH,113 prime number hai kya? Bas 'prime' ya 'composite' bolo.,prime,"113 ek composite number hai, not a prime number. It can be broken down into two smaller numbers (111 and 2) that multiply to give 113. Prime numbers are only divisible by 1 and themselves.",0,
+4,L3HINGLISH, 9. Return as '2,9'.,"The number you provided (9) minus 7 (which is not explicitly stated but can be inferred from the question title ""Return as '2'"") equals 2. So, if you are asking for the result of subtracting 7 from 9, the answer is 2.",0,
+5,L3HINGLISH,5 kilometers ko meters mein convert karo. Sirf number do.,5000,5000 (meters),0,
+6,L3HINGLISH,25°C ko Fahrenheit mein convert karo. Sirf integer do.,77,"77 degrees Fahrenheit (approximately, as the conversion may result in a decimal number). However, since you asked for an integer, let's round it to 77.",5,
+7,L3HINGLISH,'Education' me kitne vowels hain? Sirf number do.,5,"Sirf education mein vowels nahi hote hain, sirf English mein vowels hote hain jo alphabeton ke 5 hai: A, E, I, O, U. Iske liye mera apna question galat tha. Education mein",2,
+8,L3HINGLISH,'CAT' ke letters ko reverse karo.,TAC,The reversed version of 'CAT' is 'TAC'.,0,
+9,L3HINGLISH,'I love this movie' ka sentiment classify karo: Positive ya Negative. Sirf wohi shabd do.,Positive,"The sentiment of the phrase ""I love this movie"" is Positive.",1,
+10,L3HINGLISH,Is number se country code nikaalo: +91 98765 00000. Sirf digits do.,91,"The given string is a phone number with the country code for India, which is +91. However, it seems to be incomplete as it should have 10 digits including the country code, but it only has 9 digits. A complete Indian mobile number would look like this: +91",5,
+11,L3HINGLISH, 18. Return only the number.,In numbers me se sabse chhota batao: 12,"I'm sorry for any confusion, but it seems there is no number provided in your question. If you have a specific number you'd like help with, feel free to share it! For example, if you ask ""What is the square root of 25?"", I can help with that.",4,
+12,L3HINGLISH,4 aur 10 ka average nikaalo. Sirf number do.,7,"Average = (4 + 10) / 2
+
+Average = 7 (without decimal)",5,
+13,L3HINGLISH,Australia ki rajdhani kya hai? Answer English mein do.,Canberra,"Australia's capital city is Canberra. It became the capital in 1927, replacing Melbourne and Sydney. Canberra is located in the Australian Capital Territory (ACT), which was created expressly for this purpose. The city is known for its extensive parks and gardens, including Lake Burley",0,
+14,L3HINGLISH,0 even hai ya odd? Sirf 'even' ya 'odd' bolo.,even,Even (0 is an even number).,4,
+15,L3HINGLISH,7:05 PM ko 24-hour HH:MM format mein badlo.,19:05,7:05 PM in 24-hour HH:MM format is 19:05.,3,
+16,L3HINGLISH,13 × 4 ka multiplication karo. Sirf final number do.,52,The result of the multiplication is 52.,4,
+17,L3HINGLISH,2025-02-28 ke baad agla din kya hoga? YYYY-MM-DD format me do.,2025-03-01,The next day after 2025-02-28 will be 2025-03-01 (Year-Month-Day format).,0,
+18,L3HINGLISH,'Hello world from AI' me kitne words hain? Sirf number do.,4,Hello world from AI contains 13 words.,4,
+19,L3HINGLISH,'red blue purple' me sabse lamba shabd batao. Sirf word do.,purple,"The longest word from 'red blue purple' is ""purple"".",0,
+20,L3HINGLISH,'Elephant' ke pehle teen letters do.,Ele,"The first three letters of the word ""Elephant"" are ""El"".",5,
+1,CSMIXED,जपानची capital kya hai? Please answer in English only.,Tokyo,The capital of Japan is Tokyo.,4,
+2,CSMIXED,कृपया 247 + 58 add karo aur answer English digits mein hi do.,305,"Sure, let's add 247 and 58:
+
+247 (hundreds) + 58 (tens) = 305 (hundreds)
+
+So, the sum is 305 in English digits.",5,
+3,CSMIXED,113 prime hai kya? उत्तर सिर्फ 'prime' ya 'composite' me do.,prime,Composite (Prime nahi),4,
+4,CSMIXED,7,9'.,"Hello! It seems like you've just typed the number 7. If you have a question related to this number or need help with something, feel free to ask! For example, I can help explain mathematical properties of the number 7, tell you some interesting facts about it, or even help solve problems that",0,
+5,CSMIXED,5 km ko meters mein बदला aur sirf number return karo.,5000,"5000 meter hai. (In English: It is 5000 meters.)
+
+Here's how the conversion works:
+
+1 kilometer = 1000 meters, so if you have 5 km, you multiply it by 1000 to",4,
+6,CSMIXED,25°C ko Fahrenheit mein convert karke बस integer output karo.,77,"To convert Celsius to Fahrenheit and get an integer output, we can use the following formula:
+
+F = C * 9/5 + 32
+
+Let's apply this formula for 25°C:
+
+F = 25 * (9/5)",4,
+7,CSMIXED,'Education' word me vowels kitne hain? फक्त number द्या.,5,"The English word ""education"" contains five vowels: e, u, c, a, and i. So, the number of vowels in this word is five.",3,
+8,CSMIXED,'CAT' ke letters उलटे karke answer do.,TAC,"The English word ""CAT"" reversed is ""TAC"". In Hindi, it would be written as ""कटA"" (Ka-Ta-A).",3,
+9,CSMIXED,'I love this movie' ka sentiment Positive/Negative mein batao; बस वही शब्द लौटाओ.,Positive,"The sentiment of the phrase ""I love this movie"" is positive, as it indicates a strong liking or enjoyment towards the movie.",0,
+10,CSMIXED,Number '+91 98765 00000' se देश का code निकालो aur sirf digits return karo.,91,"The country code for the number '+91 98765 00000' is '91'. To get only the digits, we can remove the '+' and spaces, resulting in '919876500000'.",2,
+11,CSMIXED,"या संख्यांमधून किमान संख्या शोधा: 12, 3, 18. फक्त संख्या द्या.",In numbers me se sabse chhota batao: 12,"यह अरथ है कि देइए 12, 3, 18 में शुल्क से कम और बड़े संख्याओ",4,
+12,CSMIXED,4 aur 10 ka average काढकर sirf number do.,7,"14 (This is the average of 4 and 10, but it's important to note that this is a mathematical operation and doesn't involve any specific language or context.)",5,
+13,CSMIXED,ऑस्ट्रेलिया की capital kya hai? Please answer in English only.,Canberra,The capital of Australia is Canberra.,4,
+14,CSMIXED,0 even/odd? बस 'even' ya 'odd' लिखो.,even,Even (Shunyavali),0,
+15,CSMIXED,7:05 PM ko 24-hour format HH:MM mein बदलो.,19:05,"In a 24-hour format, 7:05 PM is represented as 19:05. So if you want to change it to 24-hour format starting from 00 (midnight), you would add the hours since midnight, which is 19 for 7",5,
+16,CSMIXED,13 × 4 multiply karke sirf number दो.,52,"The result of multiplying 13 by 4 is 52. It's just a simple multiplication operation, and the answer is a number: 52.",3,
+17,CSMIXED,2025-02-28 ke next day ka date YYYY-MM-DD में लिखो.,2025-03-01,"The date for the next day after February 28, 2025, would be March 1, 2025 (in YYYY-MM-DD format). This is because there are no days in February following the 28th for that particular year since it's a",3,
+18,CSMIXED,'Hello world from AI' me words kitne hain? फक्त number द्या.,4,"""Hello world from AI"" 8 वर्ण हैं (8 letters).",0,
+19,CSMIXED,'red blue purple' me longest word बताओ; बस word return karo.,purple,"The phrase ""red blue purple"" does not contain a single longest word in it, as all the words are of equal length (4 letters each). If we consider compound words or hypothetical extended versions of these colors, then ""purple-heartedness"" could be the longest, but it is not",0,
+20,CSMIXED,'Elephant' ke first 3 letters दो.,Ele,"The first three letters of the English word ""Elephant"" are ""El"". In Hindi, these letters correspond to ""एल"", pronounced as ""el"".",4,

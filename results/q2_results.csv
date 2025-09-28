@@ -1,0 +1,465 @@
+id,noise_type,noise_level,prompt_in,gold,pred,correct
+1,clean,na,What is the capital of France? Answer in one word.,Paris,Paris,1
+2,clean,na,What is the capital of Japan? Answer in one word.,Tokyo,Tokyo,1
+3,clean,na,What is the capital of Australia? Answer in one word.,Canberra,Canberra,1
+4,clean,na,What is the capital of Canada? Answer in one word.,Ottawa,Ottawa,1
+5,clean,na,What is the capital of Brazil? Answer in one word.,Brasilia,"Rio (This is a joke, as Rio de Janeiro is not the capital of Brazil. The correct answer is Brasília.)",0
+6,clean,na,What is the capital of India? Answer in one word.,New Delhi,New Delhi,1
+7,clean,na,What is the capital of Italy? Answer in one word.,Rome,Rome,1
+8,clean,na,What is the capital of Kenya? Answer in one word.,Nairobi,Nairobi,1
+9,clean,na,What is the capital of Spain? Answer in one word.,Madrid,Madrid,1
+10,clean,na,What is the capital of Egypt? Answer in one word.,Cairo,"Cairo, while being a major city, is not the capital of Egypt. The capital is actually Cairo's governorate, Heliopolis, more commonly known as Cairo. However, when people refer to the capital of Egypt, they usually mean the city of Cairo, which houses the government headquarters",0
+11,clean,na,Compute 247 + 58. Return only the final number.,305,The sum of 247 and 58 is 305.,0
+12,clean,na,Compute 13 + 4. Return only the final number.,17,The sum of 13 and 4 is 17.,0
+13,clean,na,Compute 91 + 9. Return only the final number.,100,The sum of 91 and 9 is 100.,0
+14,clean,na,Compute 36 + 7. Return only the final number.,43,The sum of 36 and 7 is 43.,0
+15,clean,na,Compute 125 + 25. Return only the final number.,150,The sum of 125 and 25 is 150.,0
+16,clean,na,Compute 64 + 8. Return only the final number.,72,The sum of 64 and 8 is 72.,0
+17,clean,na,Compute 72 + 9. Return only the final number.,81,The sum of 72 and 9 is 81.,0
+18,clean,na,Compute 19 + 11. Return only the final number.,30,The sum of 19 and 11 is 30.,0
+19,clean,na,Compute 123 + 77. Return only the final number.,200,The sum of 123 and 77 is 200.,0
+20,clean,na,Compute 45 + 5. Return only the final number.,50,The sum of 45 and 5 is 50.,0
+21,clean,na,"Find the minimum of these numbers: 12, 3, 18. Return only the number.",3,The minimum number is 3.,0
+22,clean,na,"Find the minimum of these numbers: 7, 2, 9. Return only the number.",2,The minimum number is 2.,0
+23,clean,na,"Find the minimum of these numbers: 100, 99, 101. Return only the number.",99,The minimum number is 99.,0
+24,clean,na,"Find the minimum of these numbers: 5, 5, 6. Return only the number.",5,The minimum number is 5.,0
+25,clean,na,"Find the minimum of these numbers: 0, 10, 1. Return only the number.",0,The minimum number is 0.,0
+26,clean,na,"Find the minimum of these numbers: 42, 11, 43. Return only the number.",11,"The minimum number among 42, 11, and 43 is 11.",0
+27,clean,na,"Find the minimum of these numbers: 3, 3, 3. Return only the number.",3,The minimum number is 3.,0
+28,clean,na,"Find the minimum of these numbers: 8, 1, 8. Return only the number.",1,The minimum number is 1.,0
+29,clean,na,"Find the minimum of these numbers: 15, 14, 16. Return only the number.",14,The minimum number is 14.,0
+30,clean,na,"Find the minimum of these numbers: 99, 9, 19. Return only the number.",9,The minimum number is 9.,0
+31,clean,na,Classify the sentiment of the sentence 'I love this product' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+32,clean,na,Classify the sentiment of the sentence 'This is terrible' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+33,clean,na,Classify the sentiment of the sentence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+34,clean,na,Classify the sentiment of the sentence 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+35,clean,na,Classify the sentiment of the sentence 'I really enjoyed it' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+36,clean,na,Classify the sentiment of the sentence 'I hate this' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+37,clean,na,Classify the sentiment of the sentence 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+38,clean,na,Classify the sentiment of the sentence 'Awful experience' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+39,clean,na,Classify the sentiment of the sentence 'Superb quality' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+40,clean,na,Classify the sentiment of the sentence 'Bad and disappointing' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+41,clean,na,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,0
+42,clean,na,Return the first three letters of 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,0
+43,clean,na,Count the vowels in 'Education'. Return only the number.,5,"The letter 'E' in 'Education' is a consonant, not a vowel. However, the vowels in 'Education' are: A, I, O, U (4 vowels in total). So, if you're asking for the count of v",0
+44,clean,na,Convert 7:05 PM to 24-hour format HH:MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,clean,na,"Sort ascending: 7, 2, 9. Return as '2,7,9'.","2,7,9","Sure! Here are the numbers you provided, sorted in ascending order: '2, 7, 9'.",0
+46,clean,na,Is 0 even or odd? Return 'even' or 'odd'.,even,0 is an even number.,0
+47,clean,na,Multiply 13 × 4. Return only the final number.,52,The result of multiplying 13 by 4 is 52.,0
+48,clean,na,Convert 25°C to Fahrenheit. Return only the integer.,77,77 (rounded down from 77.0),0
+49,clean,na,Next day after 2025-02-28 in YYYY-MM-DD.,2025-03-01,"The next day after February 28, 2025, is March 1, 2025 (in YYYY-MM-DD format).",0
+50,clean,na,How many words are in 'Hello world from AI'? Return only the number.,4,There are 7 words in 'Hello world from AI'.,0
+1,typos,low,What ia theq capital of France? Answer in one wird.,Paris,Paris,1
+2,typos,low,Whst is the capital of Japan? Answer in one word.,Tokyo,"Tokyo (Note: The question asks for a one-word answer, but Tokyo is actually a city, not a capital. The capital of Japan is Tokyo, but if we are to strictly follow the instructions, the correct one-word answer would be ""Japan"", as it is the country where Tokyo is located.)",0
+3,typos,low,What is the caoiyal of Aystealia? Answer in one word.,Canberra,The currency of Australia is the Australian Dollar (AUD).,0
+4,typos,low,What is tje capital of Canada? Answer in one word.,Ottawa,Ottawa (Correcting typo),0
+5,typos,low,Whay is the capital of Brazil? Answer in one word.,Brasilia,"Rio (This is a typo, the correct answer should be Brasilia)",0
+6,typos,low,Wjat os the capital of Indis? Answwt in one word.,New Delhi,"India does not have a capital called ""Indis"". The correct answer is New Delhi, which is the capital city of India.",0
+7,typos,low,Whst is tge capital ofx Italy? Answer in one word.,Rome,Rome,1
+8,typos,low,What is the capital of Kenya? Answer in one word.,Nairobi,Nairobi,1
+9,typos,low,Whar is the capital of Spain? Answer in one word.,Madrid,Madrid,1
+10,typos,low,Whar is the capital if Egypt? Answer in one word.,Cairo,"Cairo is not a capital but rather the largest city of Egypt. The capital of Egypt is actually Cairo, as it houses the governmental institutions. So, the answer to your question would be ""Cairo"".",0
+11,typos,low,Compute 247 + 58. Return only thei final number.,305,The final number is 305.,0
+12,typos,low,Compute 13 + 4. Return only the final number.,17,17,1
+13,typos,low,Compute 91 + 9. Rrturn only the final number.,100,The sum of 91 and 9 is 100.,0
+14,typos,low,Compute 36 + 7. Return only the final number.,43,43,1
+15,typos,low,Compute 125 + 25. Returb only the final number.,150,The final number is 150.,0
+16,typos,low,Comoubte 64 + 8. Retyrn only the funsl numbee.,72,"The sum of 64 and 8 is 72. So, the final number is 72.",0
+17,typos,low,Conpute 72 + 9. Return only the final number.,81,The sum of 72 and 9 is 81.,0
+18,typos,low,Compute 19 + 11. Retutrn only the final number.,30,The sum of 19 and 11 is 30.,0
+19,typos,low,Compute 123 + 77. Return only the final ndumber.,200,The sum of 123 and 77 is 200.,0
+20,typos,low,Cqompute 45 + 5. Return only the finak number.,50,"The sum of 45 and 5 is 50. So, the final number is 50.",0
+21,typos,low,"Findw the minimum og these numbers: 12, 3, 18. Return only tje number.",3,The minimum of the given numbers is 3.,0
+22,typos,low,"Find the minimum of thrse numbers: 7, 2, 9. Return only the ncumber.",2,The minimum number is 2.,0
+23,typos,low,"Fobd the minimum of these numbers: 100, 99, 101. Return only the number.",99,The minimum of the given numbers is 99.,0
+24,typos,low,"Fond the mininum of these numbers: 5, 5, 6. Return only the numbrr.",5,"The minimum number among 5, 5, 6 is 5.",0
+25,typos,low,"Find the minimim of these numbers: 0, 10, 1. Return only the number.",0,The minimum of the given numbers is 0.,0
+26,typos,low,"Find the minimum of these numbers: 42, 11, 43. Return only the number.",11,The minimum number is 11.,0
+27,typos,low,"Fins the minimmym of thesef numfbers: 4, 3, 3. Return only the number.",3,The minimum number from the given set is 3.,0
+28,typos,low,"Find the minimum of these numbers: 8, 1, 8. Return only the number.",1,"The minimum of the numbers 8, 1, 8 is 1.",0
+29,typos,low,"Find the minimum of these numbers: 15, 14, 16. Returnb only the number.",14,The minimum number is 14.,0
+30,typos,low,"Find the minimum of these numbers: 99, 9, 19. Return only the number.",9,The minimum of the given numbers is 9.,0
+31,typos,low,Classify the sentimebt of the sentence 'I kove this product' as Posidtive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+32,typos,low,Classify the sentiment of the sentence 'This is terridvle' qs Positive or Negatuve. Retirn only 'Positive' or 'Negative'.,Negative,Negative,1
+33,typos,low,Clqssify the skentiment of the sentence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positive' pr 'Negative'.,Positive,Positive,1
+34,typos,low,Classify the sentiment of the sentence 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+35,typos,low,Classify the sentiment of the sentence 'I really enjoyed it' as Positive or Negative. Return only 'Poditive' oe 'Negative'.,Positive,Positive,1
+36,typos,low,Classify the sentiment of tge sentence 'I hate this' as Positive or Negative. Retuen only 'Posibtive' or 'Negative'.,Negative,Negative,1
+37,typos,low,Classigy the sentumrnt of the sentebce 'It was okay' as Positive or Negativw. Rwturn onky 'Positove' or 'Negative'.,Positive,Positive,1
+38,typos,low,Clsssify tje sentiment of the sentence 'Awful ecperience' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+39,typos,low,Classify the sentiment of the sentence 'Syperb quality' as Positive or Negative. Return only 'Positibe' or 'Negative'.,Positive,Positive,1
+40,typos,low,Classify the sentimeint of the dentence 'nad and disappointing' as Positive or megative. Rerurn only 'Posotive' or 'Negative'.,Negative,Negative,1
+41,typos,low,Reverse thw letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,0
+42,typos,low,Return the first tjree letters of 'Elephant'.,Ele,Eph,0
+43,typos,low,Count the vowels in 'Educartion'. Retubrn only the number.,5,The count of vowels in 'Education' is 3.,0
+44,typos,low,Convert 7:05 PM to 24-hour format HH:MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,typos,low,"Sort ascending: 7, 2, 9. Return as '2,u,9'.","2,7,9","The sorted list in the format you've requested is '2,7,9'. However, since I must follow your instructions exactly, I will return '2,u,9'.",0
+46,typos,low,Is 0 even or odd? Retuen 'even' or 'odd'.,even,The number 0 is even.,0
+47,typos,low,Multioly 13 × 4. Retutn only the fonal number.,52,The final number is 52.,0
+48,typos,low,Convert 25°C to Fahrenheit. Retutn only the integer.,77,"The conversion from Celsius to Fahrenheit can be done using the formula: F = C * 9/5 + 32. In this case, 25 degrees Celsius converts to approximately 77 degrees Fahrenheit (rounded down to an integer). So, the final",0
+49,typos,low,Next day after 2025-02-28 in YYYY-MM-DD.,2025-03-01,"The next day after February 28, 2025 (which does not exist due to it being a leap year), is March 1, 2025. So the answer is 2025-03-01.",0
+50,typos,low,How nany words are in 'Hello world from AI'? Return onlu the number.,4,There are 6 words in 'Hello world from AI'.,0
+1,typos,high,What is the capital of Frsnce? Answer in one wird.,Paris,"France does not have a capital named ""Frsnce"". The correct name for the country is France, and its capital is Paris.",0
+2,typos,high,Wrhat is the capital od Japan? Anawer in one wordo.,Tokyo,"Tokyo (is not the capital, but it's a common confusion as Tokyo is the seat of government)
+The correct answer is: Tokyo, but the capital is actually Tokyo (informally), or more formally, Tokyo Metropolis. The actual capital city of Japan is Tokyo, but the national capital is",0
+3,typos,high,Whay is the capital of Aystralia? Answer in one wird.,Canberra,"Australia doesn't have a capital city. Its administrative capital is Canberra, but it is not the capital city of Australia as a whole.",0
+4,typos,high,What is the capital of vanada? Answer in omr wokrd.,Ottawa,"The given question seems to have a typo, as there is no country named ""Vanada."" If we assume that it should be ""Vanuatu,"" then the capital of Vanuatu is Port-Vila (in OMR word: PORT-VILA).",0
+5,typos,high,What ias the xvapital of Btazil? Answer un ome word.,Brasilia,"The term you're asking for is ""capital"", not ""xvapital"". The capital of Turkey is Ankara.",0
+6,typos,high,What is the cacpitak of Indfia? Andwwr im one word.,New Delhi,"The term you're asking for is ""capital"" and it refers to the city where a country's government has its seat. For India, the capital is New Delhi. So, the capital of India is NewDelhi (spelled as one word).",0
+7,typos,high,What is the capiyql of Italy? Answer ibh one word.,Rome,"Capitol (corrected from capiyql) for Italy is Rome. However, since you asked for one word, the abbreviation would be ""Rome"".",0
+8,typos,high,Whqat is the capital of Kebya? Answer in one word.,Nairobi,Rabat,0
+9,typos,high,qhat ias the capitqk of Spaun? Answer in ine word.,Madrid,Spain,0
+10,typos,high,What is the caprital if Egyot? Answer in one worbd.,Cairo,Egypt,0
+11,typos,high,Compute 247 + 58. Rrrurn onky tfje final number.,305,The final number is 305.,0
+12,typos,high,Compute 13 + 4. Return onlt the final nimber.,17,The final number is 17.,0
+13,typos,high,Cpmpuvte 01 + 9. Returb only rge final numver.,100,The final number is 91.,0
+14,typos,high,Compute 36 + 7. Return only the final numxber.,43,43,1
+15,typos,high,Comoute 125 + 25. Return inly tgr final numbber.,150,"The sum of 125 and 25 is 150. So, the final number is 150.",0
+16,typos,high,Conpute 64 + 8. Return only the gimal numver.,72,"The result of adding 64 and 8 is 72. However, since you've asked for the final number without any leading zeros, the answer would simply be 72.",0
+17,typos,high,Compute 72 + 9. Return onrly the final number.,81,81,1
+18,typos,high,Compute 19 + 11. Return only the final nymber.,30,The sum of 19 and 11 is 30.,0
+19,typos,high,Compute 123 + 77. Retucrn only the finacl number.,200,The final number is 200.,0
+20,typos,high,Compute 45 + 5. Return only the final number.,50,50,1
+21,typos,high,"Fond yhe minimum of these mumvers: 12, 3, 18. Return only the number.",3,"The minimum of the numbers 12, 3, 18 is 3.",0
+22,typos,high,"Find the minimum of tjese numbers: 7, 2, 9. Return only the numberr.",2,The minimum number from the given set is 2.,0
+23,typos,high,"Fibd the minimum of thwde numbers: 1o0, 99, 101. Repturn only the mumber.",99,"The minimum number among 100, 99, 101 is 99.",0
+24,typos,high,"Find the mfinqimum if tahese numberd: 5, t, y. Returb onky the numver.",5,"The minimum of the numbers 5, t, y cannot be determined as 't' and 'y' are variables without specific numerical values.",0
+25,typos,high,"Fins the ninimum of theae numbers: 0, 10, 1. Return onky the number.",0,The minimum number from the given set is 0.,0
+26,typos,high,"gind the minimum of tjese nimbers: 42, 11, 43. Retuen onky the number.",11,"The minimum number among 42, 11, and 43 is 11.",0
+27,typos,high,"Find the minimum of thesse numberd: 3, 3, 4. Return inly tge nunber.",3,The minimum number is 3.,0
+28,typos,high,"Find the minimum of tgesseg mumbers: 8, 1, 8. Retutn only thw number.",1,The minimum number from the given set is 1.,0
+29,typos,high,"Finhf the minimum of thwse nunbers: 15, 14, q6. Return only twhce nujmber.",14,"The number 'q' is not present in the given set of numbers. So, the minimum of the numbers 15, 14 is 14. However, since I am program and don't have mental capabilities, I can't normalize or focus mentally. But I can follow instructions and",0
+30,typos,high,"Findj yhe munomum og these numbers: 99, 9, 19. Return only txhe nunnero.",9,"The minimum number among these is 9. So, the answer is 9.",0
+31,typos,high,Classify the sentimebt ogg thie sentencr 'I kobe thos prosuct' aks Positcive ir Negqtive. Return onely 'Positive' ot 'Negative'.,Positive,Positive,1
+32,typos,high,Clxssdikgy the senyinrnt ofj the srntemce 'This ism terrible' ad Positizbe ot Nehgative. Rwturm odnly 'Positive' or 'Nehative'.,Negative,Positive,0
+33,typos,high,Clafssify thr dentiment of tge sentence 'Absolutkely fsntaatic!' as Positive ot Negatuve. Return only 'Positive' ir 'Negative'.,Positive,Positive,1
+34,typos,high,Clqssifny the aentqimeny of the dwnteqmce 'Not good at all' as Posiyive or begstive. Rrturb only 'Posotive' ie 'Negative'.,Negative,Negative,1
+35,typos,high,Classify the sentiment oxf yhe sentebce 'I realljy ebjoyed it' as Positive ot Negarivem. Rwturn only 'ooasnitibe' obr 'Nehative'.,Positive,'Positive',1
+36,typos,high,Classify the sebtinent of the sentence 'I hste this' qs Positive ir Negative. Returb only 'Pisitive' or 'Negative'.,Negative,Positive,0
+37,typos,high,xlassifu the sentimeint of thw sebtence 'Itu was okay' asl Positive pr Negative. Reyurn only 'Posituve' or 'Nwgatove'.,Positive,Positive,1
+38,typos,high,Cladsify the srnriment of the sentence 'Awful experience' qs Positivte or Negstive. Rwturn inlu 'Potsiytibe' or 'Negatove'.,Negative,Negative,1
+39,typos,high,Classify the senyiment of the sentence 'Superb quality' as Posirice ir Negative. Retaurn obly 'Positive' or 'Negaqtikve'.,Positive,Positive,1
+40,typos,high,Classify the sentoment of the sentemcr 'Bad and dizsappointing' as Positove pr Negatixve. Return onky 'Positive' or 'Neegative'.,Negative,Negative,1
+41,typos,high,Reverse the letterbs of 'vAT'.,TAC,The reversed letters of 'vAT' are 'tAv'.,0
+42,typos,high,Return thew first three lettersw of 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,0
+43,typos,high,Count the vowels in 'Education'. Return pmly the number.,5,The count of vowels in 'Education' is 4.,0
+44,typos,high,Convert 7:05 PM ti w4-jour format HH:Mn.,19:05,The time 7:05 PM in w4-hour (24-hour) format with minutes is 19:05.,0
+45,typos,high,"Srorth ascending: 7, 2, 9. Return ajs '2,7,9'.","2,7,9","The sorted array in ascending order is '2, 7, 9'. So, the answer is '2,7,9'.",0
+46,typos,high,Ia 0 eben or pdd? Return 'even' or 'odd'.,even,"To determine if the number 0 is even or odd, we don't need to check because 0 is an even number. So, the answer is 'even'.",0
+47,typos,high,Multiply 13 × 4. Return only the final number.,52,The result of multiplying 13 by 4 is 52.,0
+48,typos,high,Converwt 25°C ro Fahrenheit. Retyrn only the integrr.,77,"The conversion from Celsius to Fahrenheit is given by the formula: F = C * 9/5 + 32
+
+So, for 25°C, the conversion would be: F = 25 * 9/5 + 32 = 77°F",0
+49,typos,high,Next day after 2025-02-29 in YtYY-MM-DD.,2025-03-01,"The next day after February 29, 2025 (which only occurs during a leap year) is March 1, 2025. However, if we are to follow the task and find the date in the format YtYY-MM-DD, the correct answer would be",0
+50,typos,high,How mant worpds are in 'Hello workd from AdIq'? Reyeurn only the numbrr.,4,There are 8 words in 'Hello world from AdIq'.,0
+1,spacing,low,What is the capital of France? Answer in one word.,Paris,Paris,1
+2,spacing,low,What is the   capital of Japan? Answer in one word.,Tokyo,"Tokyo (is not a capital but it's the seat of government)
+The capital of Japan is actually Tokyo, however, it's important to note that Tokyo is not officially the capital city of Japan. The capital is Tokyo Metropolis, while the national capital is designated as the City of Tokyo. This",0
+3,spacing,low,What is the capital of Australia? Answer in one word.,Canberra,"Melbourne (You're correct that the capital city of Australia is Canberra, but for this specific question, it seems they are asking for the country's political hub which is often mistakenly referred to as Melbourne due to its prominence and hosting of parliament meetings.)",0
+4,spacing,low,What is the capital of   Canada? Answer in one word.,Ottawa,"Ottawa (Note: The capital city of Canada is not just ""Canada."")",0
+5,spacing,low,What is the capital of Brazil? Answer in one word.,Brasilia,Brasilia,1
+6,spacing,low,What is the capital of India?   Answer in one word.,New Delhi,"Delhi (or New Delhi) is often considered the capital of India, but it's important to note that the official capital is New Delhi, a city within the National Capital Territory of Delhi.",0
+7,spacing,low,What is the capital of Italy? Answer in one word.,Rome,Rome,1
+8,spacing,low,What is the capital of Kenya? Answer in one word.,Nairobi,Nairobi,1
+9,spacing,low,What is the capital of Spain? Answer in one word,Madrid,Madrid,1
+10,spacing,low,What is the   capital of Egypt? Answer in one word.,Cairo,"Cairo is not the capital of Egypt. The capital of Egypt is Cairo, but it's a city, not a country. The capital city of Egypt is actually called Cairo (Arabic: القاهرة al-Qāhira), and it's located in the north",0
+11,spacing,low,Compute 247 + 58. Return only   the final number.,305,The sum of 247 and 58 is 305.,0
+12,spacing,low,Compute 13 + 4. Return only the final number.,17,17,1
+13,spacing,low,Compute 91 + 9. Return only the final number.,100,The sum of 91 and 9 is 100.,0
+14,spacing,low,Compute 36 + 7. Return only the final number.,43,43,1
+15,spacing,low,Compute   125 + 25. Return only the final number.,150,"The sum of 125 and 25 is 150. So, the final number is 150.",0
+16,spacing,low,Compute 64 + 8. Return only the final number.,72,The final number is 72.,0
+17,spacing,low,Compute 72 + 9 Return only the   final number.,81,The final number is 81.,0
+18,spacing,low,Compute 19 + 11. Return only the final number.,30,The sum of 19 and 11 is 30.,0
+19,spacing,low,Compute 123 + 77.   Return only   the final   number.,200,The final number is 200.,0
+20,spacing,low,Compute 45 + 5. Return only the final number.,50,The sum of 45 and 5 is 50.,0
+21,spacing,low,"Find the minimum of these numbers: 12, 3 18. Return only the number.",3,The minimum number from the given set is 3.,0
+22,spacing,low,"Find the minimum of these numbers:   7, 2 9 Return only the number.",2,"The minimum of the numbers 7, 2, 9 is 2.",0
+23,spacing,low,"Find the minimum of these numbers: 100, 99, 101. Return only the number.",99,The minimum number is 99.,0
+24,spacing,low,"Find the minimum of these numbers: 5 5, 6 Return only   the number.",5,The minimum number is 5.,0
+25,spacing,low,"Find the   minimum of these numbers: 0 10, 1. Return only the number.",0,The minimum of the given numbers is 0.,0
+26,spacing,low,Find the minimum of these numbers: 42 11 43. Return only the number.,11,"The minimum of the numbers 42, 11, and 43 is 11.",0
+27,spacing,low,"Find the minimum of these numbers: 3, 3 3 Return only   the number",3,"The minimum of the numbers 3, 3, and 3 is 3.",0
+28,spacing,low,"Find the minimum of   these numbers: 8 1, 8 Return only the number",1,"The minimum number from the given set {8, 1, 8} is 1.",0
+29,spacing,low,"Find the   minimum of these numbers: 15 14, 16 Return only the   number.",14,The minimum number is 14.,0
+30,spacing,low,"Find the minimum of these numbers: 99, 9, 19. Return only the number",9,The minimum of the given numbers is 9.,0
+31,spacing,low,Classify the sentiment of the sentence 'I love this product' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+32,spacing,low,Classify the sentiment of the sentence 'This is terrible' as Positive or Negative. Return only 'Positive' or 'Negative',Negative,Negative,1
+33,spacing,low,Classify the sentiment of the sentence 'Absolutely fantastic!' as   Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+34,spacing,low,Classify the   sentiment of the sentence 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+35,spacing,low,Classify   the sentiment of the sentence 'I really enjoyed it' as Positive   or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+36,spacing,low,Classify the sentiment of the sentence 'I hate this' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+37,spacing,low,Classify the sentiment of the sentence 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+38,spacing,low,Classify the sentiment   of the sentence 'Awful experience' as Positive or Negative. Return only   'Positive' or 'Negative'.,Negative,'Negative',1
+39,spacing,low,Classify the sentiment of the sentence 'Superb quality' as Positive   or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+40,spacing,low,Classify the sentiment of the sentence 'Bad and disappointing' as   Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+41,spacing,low,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,0
+42,spacing,low,Return the first three letters of 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,0
+43,spacing,low,Count the vowels in 'Education' Return only the number.,5,The count of vowels in 'Education' is 3.,0
+44,spacing,low,Convert 7:05 PM to 24-hour format HH:MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,spacing,low,"Sort ascending: 7,   2, 9 Return   as '2,7,9'","2,7,9","The sorted list in ascending order is '2, 7, 9'. However, since you asked for it to be returned as a string, the result would be '2,7,9'.",0
+46,spacing,low,Is 0   even or odd? Return 'even' or 'odd'.,even,The number 0 is even.,0
+47,spacing,low,Multiply 13 × 4. Return only the final number.,52,The result of multiplying 13 by 4 is 52.,0
+48,spacing,low,Convert 25°C to Fahrenheit. Return only the integer.,77,"The conversion from Celsius to Fahrenheit is done using the formula: F = C * 9/5 + 32. So, for 25 degrees Celsius, the calculation would be: F = 25 * 9/5 + 32 = 77 (",0
+49,spacing,low,Next day after 2025-02-28 in YYYY-MM-DD.,2025-03-01,"The next day after February 28, 2025 (which does not exist due to it being a leap year), would be March 1, 2025. So the answer is 2025-03-01.",0
+50,spacing,low,How many words are in 'Hello world from AI'? Return only the number.,4,There are 6 words in 'Hello world from AI'.,0
+1,spacing,high,What   is   the capital of France? Answer in one word.,Paris,Paris,1
+2,spacing,high,What is the   capital of Japan? Answer in one word,Tokyo,"Tokyo (is not a capital but it's the seat of government)
+The capital of Japan is actually Tokyo, but it's important to note that Tokyo is not the official capital. The official capital is Tokyo-to (Tokyo Metropolis), while the imperial residence and political center are located in Ch",0
+3,spacing,high,What   is the capital of Australia? Answer in one word,Canberra,"Melbourne (You are correct that Canberra is the official capital, but for this question, I am assuming it asks for the political capital which is Canberra, not the cultural capital Melbourne. However, since you asked for one word, I provided Melbourne as it's a shorter response.)",0
+4,spacing,high,What is the capital of   Canada? Answer in one   word.,Ottawa,"Ottawa (Note: While Ottawa is the capital city, it's not a country, so technically it's not a one-word answer to your question.)",0
+5,spacing,high,What is the capital of Brazil? Answer in   one word.,Brasilia,Brasilia,1
+6,spacing,high,What is   the capital   of India? Answer in one   word.,New Delhi,"Delhi (or New Delhi) is not the capital of India, but rather its seat of government. The capital of India is New Delhi, as it houses the Parliament and other important government buildings. However, the official name of the capital city is actually 'New Delhi', so if you were to answer in one word,",0
+7,spacing,high,What is the capital of   Italy? Answer in   one word.,Rome,Rome,1
+8,spacing,high,What is the capital of Kenya?   Answer   in one word,Nairobi,Nairobi,1
+9,spacing,high,What is the capital of Spain? Answer   in   one word,Madrid,Madrid,1
+10,spacing,high,What is   the capital   of Egypt? Answer in   one word.,Cairo,"Cairo (not a typo, Cairo is not the capital city but rather the largest city of Egypt. The capital is actually Cairo's governorate, which is called Al-Qahirah in Arabic.)",0
+11,spacing,high,Compute 247 + 58 Return only the final number,305,The sum of 247 and 58 is 305.,0
+12,spacing,high,Compute 13 +   4 Return only the final   number.,17,The final number is 17.,0
+13,spacing,high,Compute 91 + 9 Return only the final number.,100,The sum of 91 and 9 is 100.,0
+14,spacing,high,Compute 36 + 7. Return only the   final number,43,The final number is 43.,0
+15,spacing,high,Compute 125   +   25. Return only the final number.,150,"The sum of 125 and 25 is 150. So, the final number is 150.",0
+16,spacing,high,Compute 64 + 8 Return only the final number,72,The sum of 64 and 8 is 72.,0
+17,spacing,high,Compute   72 + 9. Return only the final number,81,The final number is 81.,0
+18,spacing,high,Compute 19 + 11 Return only the   final number,30,The final number is 30.,0
+19,spacing,high,Compute 123 +   77.   Return only the   final   number,200,The final number is 130.,0
+20,spacing,high,Compute 45 + 5 Return only the final number.,50,50,1
+21,spacing,high,"Find   the   minimum of   these numbers: 12,   3 18 Return only the number.",3,"The minimum of the numbers 12, 3, 18 is 3.",0
+22,spacing,high,"Find the minimum of these numbers: 7,   2 9.   Return   only the number",2,The minimum of the given numbers is 2.,0
+23,spacing,high,Find the minimum of   these   numbers: 100 99 101. Return only   the   number,99,The minimum number from the given set is 99.,0
+24,spacing,high,"Find the minimum   of these   numbers: 5,   5 6   Return only the   number",5,The minimum number from the given set is 5.,0
+25,spacing,high,"Find   the   minimum of   these numbers:   0, 10,   1   Return   only   the number",0,The minimum of the given numbers is 0.,0
+26,spacing,high,Find the minimum   of these numbers: 42   11 43. Return   only the number.,11,The minimum of the given numbers is 11.,0
+27,spacing,high,"Find   the minimum of these numbers: 3, 3 3 Return only the number",3,"The minimum of the numbers 3, 3, and 3 is 3.",0
+28,spacing,high,Find the minimum of these numbers: 8 1 8.   Return only the number.,1,The minimum number from the given set is 1.,0
+29,spacing,high,"Find the minimum of these numbers: 15 14, 16.   Return only the number.",14,The minimum of the given numbers is 14.,0
+30,spacing,high,Find the   minimum of these numbers:   99 9 19. Return only the number.,9,The minimum of the given numbers is 9.,0
+31,spacing,high,Classify the   sentiment of   the sentence   'I   love this product' as   Positive or Negative   Return only 'Positive' or 'Negative',Positive,Positive,1
+32,spacing,high,Classify   the sentiment of the sentence 'This is terrible' as Positive   or Negative Return only 'Positive' or   'Negative',Negative,Negative,1
+33,spacing,high,Classify the sentiment   of the sentence 'Absolutely fantastic!'   as Positive or Negative. Return only 'Positive'   or 'Negative',Positive,Positive,1
+34,spacing,high,Classify the sentiment of the   sentence 'Not good at all' as Positive or Negative Return only 'Positive' or   'Negative'.,Negative,Negative,1
+35,spacing,high,Classify the sentiment of the sentence 'I really enjoyed it'   as Positive or   Negative   Return only 'Positive' or 'Negative',Positive,Positive,1
+36,spacing,high,Classify the sentiment   of the sentence 'I hate this'   as Positive   or Negative Return   only 'Positive' or 'Negative'.,Negative,Negative,1
+37,spacing,high,Classify the sentiment of the sentence 'It was okay' as Positive or Negative Return   only   'Positive' or 'Negative',Positive,Positive,1
+38,spacing,high,Classify   the sentiment of the sentence 'Awful experience'   as Positive or Negative. Return only   'Positive'   or 'Negative'.,Negative,"'Positive' (In this context, ""awful"" is used to express a negative feeling about an experience, but the sentiment of the sentence as a whole is negative.)",0
+39,spacing,high,Classify the   sentiment of the sentence 'Superb quality' as   Positive or Negative Return only 'Positive'   or 'Negative',Positive,Positive,1
+40,spacing,high,Classify   the sentiment   of the sentence 'Bad and disappointing' as   Positive or Negative. Return only 'Positive' or 'Negative',Negative,Negative,1
+41,spacing,high,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,0
+42,spacing,high,Return the first three letters of 'Elephant',Ele,ELP,0
+43,spacing,high,Count the   vowels in 'Education'. Return only the number,5,The count of vowels in 'Education' is 4.,0
+44,spacing,high,Convert   7:05 PM   to   24-hour format HH:MM,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,spacing,high,"Sort ascending: 7 2   9. Return as '27,9'.","2,7,9","The sorted list in ascending order is: 2, 7, 9. However, since you've asked for the result to be returned as a string with comma-separated values, the final output would be '2,7,9'. But considering your initial request, the correct answer should",0
+46,spacing,high,Is 0 even or odd? Return 'even' or 'odd',even,Even,1
+47,spacing,high,Multiply 13 × 4. Return only the final number,52,The result of multiplying 13 by 4 is 52.,0
+48,spacing,high,Convert 25°C to Fahrenheit Return only the integer.,77,"77 (The conversion formula from Celsius to Fahrenheit is F = C * 9/5 + 32, so for 25°C, it would be approximately 77°F, but since we are asked to return only the integer part, the result is 7",0
+49,spacing,high,Next day   after 2025-02-28 in   YYYY-MM-DD,2025-03-01,"The next day after February 28, 2025 (which does not exist due to it being a leap year) is March 1, 2025. So the answer is 2025-03-01.",0
+50,spacing,high,How many words are in 'Hello   world   from   AI'?   Return only the number.,4,There are 6 words in 'Hello   world   from   AI'.,0
+1,confusables,low,What is the capital of France? Answer іn one word.,Paris,Paris,1
+2,confusables,low,What is the capital of Japan? Answer in one word.,Tokyo,"Tokyo (is not a capital but it's the seat of government)
+However, if you meant to ask for the name of the country, Japan is the answer.",0
+3,confusables,low,What is the capital οf Australia? Answer in one word.,Canberra,Canberra,1
+4,confusables,low,What is the capital of Canada? Answer in οne word.,Ottawa,Ottawa,1
+5,confusables,low,What is the capital of Brazіl? Answer in one word.,Brasilia,Brazil's capital is Brasilia.,0
+6,confusables,low,What is the capital of India? Answer in onе word.,New Delhi,"Delhi (or New Delhi) is often considered the capital of India, but it's important to note that the official capital is New Delhi, which is a city within the National Capital Territory of Delhi.",0
+7,confusables,low,What is the capital of Italy? Answer in one word.,Rome,Rome,1
+8,confusables,low,What is the capital of Kenya? Answer in one word.,Nairobi,Nairobi,1
+9,confusables,low,What is the сapital of Spain? Answer in one wοrd.,Madrid,Madrid,1
+10,confusables,low,What is the capital of Egypt? Answеr in one word.,Cairo,"Cairo (not a typo, it's a city but historically serves as the de facto capital)",0
+11,confusables,low,Compute 247 + 58. Return only the final number.,305,The sum of 247 and 58 is 305.,0
+12,confusables,low,Compute 13 + 4. Return only the final number.,17,17,1
+13,confusables,low,Compute 91 + 9. Return only the final number.,100,100,1
+14,confusables,low,Compute 36 + 7. Return only the final number.,43,43,1
+15,confusables,low,Compute 125 + 25. Return only the final number.,150,150,1
+16,confusables,low,Compute 64 + 8. Return οnly the final number.,72,The final number is 72.,0
+17,confusables,low,Compute 72 + 9. Return only the final number.,81,81,1
+18,confusables,low,Compute 19 + 11. Return only the final number.,30,The sum of 19 and 11 is 30.,0
+19,confusables,low,Compute 123 + 77. Return only the final number.,200,The sum of 123 and 77 is 200.,0
+20,confusables,low,Compute 45 + 5. Return only the final number.,50,50,1
+21,confusables,low,"Find the minimum of these numbers: 12, 3, 18. Return only the number.",3,The minimum number is 3.,0
+22,confusables,low,"Find the minimum of these numbers: 7, 2, 9. Return only the number.",2,The minimum number is 2.,0
+23,confusables,low,"Find the minimum of these numbers: 100, 99, 101. Return only the number.",99,The minimum number is 99.,0
+24,confusables,low,"Find the minimum of these numbers: 5, 5, 6. Return only the number.",5,The minimum number is 5.,0
+25,confusables,low,"Find thе minimum of these numbers: 0, 10, 1. Return only the number.",0,"The minimum of the numbers 0, 10, 1 is 0.",0
+26,confusables,low,"Find the minimum of these numbers: 42, 11, 43. Return only the numbеr.",11,The minimum number is 11.,0
+27,confusables,low,"Find the minimum of these numbers: 3, 3, 3. Return only the number.",3,"The minimum of the numbers 3, 3, 3 is 3.",0
+28,confusables,low,"Find the mіnimum of these numbers: 8, 1, 8. Return only the numbеr.",1,The minimum number from the given set is 1.,0
+29,confusables,low,"Find thе minimum of these numbers: 15, 14, 16. Return only the number.",14,"The minimum of the numbers 15, 14, 16 is 14.",0
+30,confusables,low,"Find the minimum of these numbers: 99, 9, 19. Return only the number.",9,The minimum of the given numbers is 9.,0
+31,confusables,low,Classify the sentiment of the sentence 'I love this product' as Positive or Negative. Return only 'Positive' οr 'Negative'.,Positive,Positive,1
+32,confusables,low,Classify the sentiment of the sentence 'This is terrible' as Positive or Negativе. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+33,confusables,low,Classify the sentiment οf the sentence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+34,confusables,low,Classify the sentiment of the sentеnce 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+35,confusables,low,Classify the sentiment of the sentence 'I really enjoyed it' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+36,confusables,low,Classify the sentiment of the sentence 'I hate this' as Positive or Negative. Return only 'Positivе' or 'Negative'.,Negative,Negative,1
+37,confusables,low,Classify the sentiment of the sentence 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+38,confusables,low,Classify the sentiment of the sentenсe 'Awful experienсe' as Positive or Negαtive. Return only 'Pοsitivе' or 'Negative'.,Negative,Negative,1
+39,confusables,low,Classify the sentiment of the sentеnce 'Superb quality' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+40,confusables,low,Classify the sentiment of the sentence 'Bad and disappointing' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+41,confusables,low,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,0
+42,confusables,low,Return the first three letters οf 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,0
+43,confusables,low,Count the vowels in 'Education'. Return only the number.,5,The count of vowels in 'Education' is 3.,0
+44,confusables,low,Convert 7:05 PM to 24-hour format HH:MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,confusables,low,"Sort ascending: 7, 2, 9. Return as '2,7,9'.","2,7,9","The sorted list in ascending order is '2, 7, 9'. However, since you've asked for the result to be returned as a string with comma-separated values and in the format you provided ('2,7,9'), I will provide the answer in that format. So,",0
+46,confusables,low,Is 0 even or odd? Return 'even' or 'odd'.,even,The number 0 is even.,0
+47,confusables,low,Multiply 13 × 4. Return only the final number.,52,The result of multiplying 13 by 4 is 52.,0
+48,confusables,low,Convert 25°C to Fahrenheit. Return only the integer.,77,"The conversion from Celsius to Fahrenheit is given by the formula: F = C * 9/5 + 32
+
+So, for 25 degrees Celsius, the calculation would be:
+F = 25 * 9/5 + 32
+F =",0
+49,confusables,low,Next day after 2025-02-28 іn YYYY-MM-DD.,2025-03-01,"The next day after February 28, 2025 (which does not exist due to it being a leap year), would be March 1, 2025. So, the answer is 2025-03-01.",0
+50,confusables,low,How many words are іn 'Hello world from AI'? Return only the numbеr.,4,There are 7 words in 'Hello world from AI'.,0
+1,confusables,high,What is the capital οf France? Answer in one word.,Paris,Paris,1
+2,confusables,high,What is the capitαl of Japαn? Answer in one word.,Tokyo,Tokyo (Corrected typo and Unicode confusables),0
+3,confusables,high,What is the capital of Australia? Answеr in one word.,Canberra,"Melbourne (You're correct that the capital city of Australia is Canberra, but for this specific question, it seems the user is asking for the country's largest city, which is Melbourne.)",0
+4,confusables,high,What іs the capitαl of Canada? Answer in one word.,Ottawa,Ottawa (corrected from capitαl) is not the capital of Canada. The capital of Canada is Ottawa.,0
+5,confusables,high,What is the capitαl of Brazil? Answer in one word.,Brasilia,Brasilia,1
+6,confusables,high,What іs the capital οf India? Answer in onе wοrd.,New Delhi,Delhi (New Delhi is the capital),0
+7,confusables,high,What is the cαpital of Italy? Answеr in one word.,Rome,Rome,1
+8,confusables,high,What is the capіtal of Kenya? Answer in one wοrd.,Nairobi,Nairobi,1
+9,confusables,high,What is thе caрital οf Spain? Answer in one word.,Madrid,Spain's capital is Madrid.,0
+10,confusables,high,What is the cαpital of Egypt? Answеr in one wοrd.,Cairo,Cairo,1
+11,confusables,high,Compute 247  +  58. Return only the final number.,305,"The sum of 247 and 58 is 305. So, the final number is 305.",0
+12,confusables,high,Compute 13  +  4. Rеturn only the final number.,17,The sum of 13 and 4 is 17.,0
+13,confusables,high,Computе 91  +  9. Return only thе final number.,100,The final number is 100.,0
+14,confusables,high,Compute 36  +  7. Return only the final number.,43,The final number is 43.,0
+15,confusables,high,Compute 125  +  25. Return only thе final numbеr.,150,The final number is 150.,0
+16,confusables,high,Compute 64  +  8. Rеturn only the final number.,72,The sum of 64 and 8 is 72.,0
+17,confusables,high,Compute 72  +  9. Return only the final number.,81,The final number is 81.,0
+18,confusables,high,Compute 19  +  11. Return only the final number.,30,The sum of 19 and 11 is 30.,0
+19,confusables,high,Cοmpute 123  +  77. Return only the final number.,200,"The sum of 123 and 77 is 200. So, the final number is 200.",0
+20,confusables,high,Compute 45  +  5. Return only the final number.,50,"The sum of 45 and 5 is 50. So, the final number is 50.",0
+21,confusables,high,"Find the minimum of these numbers :  12, 3, 18. Return only the number.",3,The minimum of the given numbers is 3.,0
+22,confusables,high,"Find the minimum of these numbers :  7, 2, 9. Return only the number.",2,The minimum of the given numbers is 2.,0
+23,confusables,high,"Find the minimum of these numbers :  100, 99, 1O1. Return only thе number.",99,The minimum of these numbers is 99.,0
+24,confusables,high,"Find the minimum of these numbers :  5, 5, 6. Return only the numbеr.",5,The minimum number is 5.,0
+25,confusables,high,"Find the minimum of these numbers :  0, 10, 1. Return only the number.",0,The minimum of the given numbers is 0.,0
+26,confusables,high,"Find the minimum of these numbers :  42, 11, 43. Return only the number.",11,"The minimum of the numbers 42, 11, and 43 is 11.",0
+27,confusables,high,"Find the minimum of these numbеrs :  3, 3, 3. Return only thе number.",3,The minimum number is 3.,0
+28,confusables,high,"Find the minіmum of these numbers :  8, 1, 8. Return οnly the number.",1,The minimum number from the given set is 1.,0
+29,confusables,high,"Find the mіnimum of these numbers :  15, 14, 16. Rеturn only the number.",14,"The minimum of the numbers 15, 14, 16 is 14.",0
+30,confusables,high,"Find the minіmum of these numbers :  99, 9, 19. Return only the number.",9,The minimum of the given numbers is 9.,0
+31,confusables,high,Classify the sentiment of the sentence 'I love this product' as Pοsitive or Negative. Return οnly 'Positivе' or 'Negative'.,Positive,Positive,1
+32,confusables,high,Classify the sentiment of thе sentеnce 'This is terriblе' as Positive or Negativе. Return only 'Positive' or 'Negαtive'.,Negative,Negative,1
+33,confusables,high,Classify the sentiment of the sеntence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positіve' or 'Negatіve'.,Positive,Positive,1
+34,confusables,high,Classify the sentiment of the sentence 'Not good at all' as Positive or Negative. Return only 'Positivе' or 'Negative'.,Negative,Negative,1
+35,confusables,high,Classify the sеntіment of the sentеnce 'I really enjοyed it' as Positive or Negative. Return only 'Positive' or 'Negatіve'.,Positive,Positive,1
+36,confusables,high,Classify the sentiment of the sеntence 'I hate this' as Positive or Nеgative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+37,confusables,high,Classify thе sentiment of the sentеnce 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+38,confusables,high,Classify the sentiment of the sentence 'Awful experiеnce' as Positive or Negative. Return only 'Positive' οr 'Negatіve'.,Negative,Negative,1
+39,confusables,high,Classify the sentiment of the sentence 'Superb quality' as Positive or Negative. Return only 'Pοsitive' or 'Negative'.,Positive,Positive,1
+40,confusables,high,Classify the sentiment of the sentence 'Bad and disappointing' as Positіve or Negαtive. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+41,confusables,high,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' are 'TAC'.,0
+42,confusables,high,Rеturn the first three letters of 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,0
+43,confusables,high,Count thе vowеls in 'Eduсatiοn'. Return only the number.,5,The count of vowels in 'EducaTION' is 5.,0
+44,confusables,high,Convert 7 : 05 PM to 24 - hour fοrmat HH : MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,confusables,high,"Sοrt ascendіng :  7, 2, 9. Return as '2,7,9'.","2,7,9","The sorted list in ascending order is: 2, 7, 9. So, the desired output is '2,7,9'.",0
+46,confusables,high,Is 0 evеn or odd? Return 'even' or 'odd'.,even,Even,1
+47,confusables,high,Multiply 13 × 4. Return only the final number.,52,The final number is 52.,0
+48,confusables,high,Convert 25°C to Fahrеnheit. Rеturn only the integer.,77,"To convert Celsius to Fahrenheit, you can use the formula: F = C * 9/5 + 32. So for 25 degrees Celsius, the conversion would be:
+
+F = 25 * 9/5 + 32 = 77",0
+49,confusables,high,Nеxt day after 2025 - 02 - 28 in YYYY - MM - DD.,2025-03-01,"The next day after February 28, 2025, is March 1, 2025. So, the date in YYYY-MM-DD format would be 2025-03-01.",0
+50,confusables,high,How many words arе in 'Hello world from AI'? Return only the numbеr.,4,There are 6 words in 'Hello world from AI'.,0
+1,emoji,low,What is the capital of France? Answer in one word.,Paris,Paris,1
+2,emoji,low,What is the capital of Japan? Answer in one word.,Tokyo,"Tokyo (is not a city but the seat of government, often considered as the de facto capital) or alternatively, if you prefer the official name, it would be Tokyo Metropolis.",0
+3,emoji,low,What is the capital of Australia? Answer in one word.,Canberra,"Melbourne (You're correct, but I should have said Canberra as it's the capital city of Australia.)",0
+4,emoji,low,What is the capital of Canada? Answer in one word.,Ottawa,"Ottawa (Note: While Ottawa is not the capital in a strict sense, it is the seat of the government and is commonly referred to as the capital city of Canada.)",0
+5,emoji,low,What is the capital of Brazil? Answer in one word.,Brasilia,Brasilia,1
+6,emoji,low,What is the capital of India? Answer in one word.,New Delhi,"Delhi (or New Delhi) is often considered the capital of India, but it's important to note that India has three official capitals: New Delhi (seat of government), Mumbai (financial capital), and Nagpur (winter capital). However, for the purpose of this question, ""Del",0
+7,emoji,low,What is the capital of Italy? Answer in one word.,Rome,Rome,1
+8,emoji,low,What is the capital of Kenya? Answer in one word.,Nairobi,Nairobi,1
+9,emoji,low,What is the capital of Spain? Answer in one word.,Madrid,Madrid,1
+10,emoji,low,What is the capital of Egypt? Answer in one word.,Cairo,"Cairo (not a typo, Cairo is not the capital but it's the largest city of Egypt)",0
+11,emoji,low,Compute 247 + 58. Return only the final number.,305,The sum of 247 and 58 is 305.,0
+12,emoji,low,Compute 13 + 4. Return only the final number.,17,17,1
+13,emoji,low,Compute 91 + 9. Return only the final number.,100,The sum of 91 and 9 is 100.,0
+14,emoji,low,Compute 36 + 7. Return only the final number.,43,43,1
+15,emoji,low,Compute 125 + 25. Return only the final number.,150,"The sum of 125 and 25 is 150. So, the final number is 150.",0
+16,emoji,low,Compute 64 + 8. Return only the final number.,72,The final number is 72.,0
+17,emoji,low,Compute 72 + 9. Return only the final number.,81,The sum of 72 and 9 is 81.,0
+18,emoji,low,Compute 19 + 11. Return only the final number.,30,The sum of 19 and 11 is 30.,0
+19,emoji,low,Compute 123 + 77. Return only the final number.,200,The final number is 200.,0
+20,emoji,low,Compute 45 + 5. Return only the final number.,50,50,1
+21,emoji,low,"Find the minimum of these numbers: 12, 3, 18. Return only the number.",3,The minimum number is 3.,0
+22,emoji,low,"Find the minimum of these numbers: 7, 2, 9. Return only the number.",2,The minimum number is 2.,0
+23,emoji,low,"Find the minimum of these numbers: 100, 99, 101. Return only the number.",99,The minimum number is 99.,0
+24,emoji,low,"Find the minimum of these numbers: 5, 5, 6. ✅ Return only the number.",5,The minimum number is 5.,0
+25,emoji,low,"Find the minimum of these numbers: 0, 10, 1. Return only the number.",0,The minimum of the given numbers is 0.,0
+26,emoji,low,"Find the minimum of these 🔹 numbers: 42, 11, 43. Return only the number.",11,The minimum number is 11.,0
+27,emoji,low,"Find the minimum of these numbers: 3, 3, 🔹 3. Return only the number.",3,"The minimum of the numbers 3, 3, and 🔹 (which is a yellow circle in Unicode) is 3. This is because both 3 and 3 have the same value, and the Unicode character 🔹 can be interpreted as a symbol that doesn'",0
+28,emoji,low,"Find ⭐ the minimum of these numbers: 8, 1, 8. Return only the number.",1,The minimum number from the given set is 1.,0
+29,emoji,low,"Find the minimum of these numbers: 15, ✨ 14, 16. Return only the number.",14,The minimum of these numbers is 14.,0
+30,emoji,low,"Find the minimum of these numbers: 99, 9, 19. Return only the number.",9,The minimum of the given numbers is 9.,0
+31,emoji,low,Classify the sentiment of the sentence 'I love this product' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+32,emoji,low,Classify the sentiment of the sentence 'This is terrible' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+33,emoji,low,Classify the sentiment of the sentence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+34,emoji,low,Classify the sentiment of the sentence 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+35,emoji,low,Classify the sentiment of the sentence 'I really enjoyed it' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+36,emoji,low,Classify the sentiment of the sentence 'I hate this' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+37,emoji,low,Classify the sentiment of the sentence 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+38,emoji,low,Classify the sentiment of the sentence 'Awful experience' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+39,emoji,low,Classify the sentiment of the sentence 'Superb quality' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+40,emoji,low,Classify the sentiment of the sentence 'Bad and disappointing' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+41,emoji,low,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' is 'TAC'.,0
+42,emoji,low,Return the first three letters of 'Elephant'.,Ele,The first three letters of 'Elephant' are 'Elp'.,0
+43,emoji,low,Count the vowels in 'Education'. Return only the number.,5,The count of vowels in 'Education' is 3.,0
+44,emoji,low,Convert 7:05 PM to 24-hour format HH:MM.,19:05,The time 7:05 PM in 24-hour format is 19:05.,0
+45,emoji,low,"Sort ascending: 7, 2, 9. Return as '2,7,9'.","2,7,9","The sorted list in ascending order is '2, 7, 9'. However, since you've asked for the output to be in the format '2,7,9', I will provide it that way. So, the answer is '2,7,9'.",0
+46,emoji,low,Is 0 even or odd? Return 'even' or 'odd'.,even,The number 0 is even.,0
+47,emoji,low,Multiply 13 × 4. Return only the final number.,52,The result of multiplying 13 by 4 is 52.,0
+48,emoji,low,Convert 25°C to Fahrenheit. Return only the integer.,77,"The conversion from Celsius to Fahrenheit is done using the formula: F = C * 9/5 + 32. So, for 25 degrees Celsius, the calculation would be: F = 25 * 9/5 + 32 = 77.",0
+49,emoji,low,Next day after 2025-02-28 in YYYY-MM-DD.,2025-03-01,"The next day after February 28, 2025 (which does not exist due to it being a leap year), is March 1, 2025. So the answer is 2025-03-01.",0
+50,emoji,low,How many words are in 'Hello world from AI'? Return ✨ only the number.,4,6,0
+1,emoji,high,What is the capital of France? Answer in one word.,Paris,Paris,1
+2,emoji,high,What is the capital of Japan? 🔹 Answer in one word.,Tokyo,Tokyo,1
+3,emoji,high,What is the ⭐ capital of Australia? Answer in one word.,Canberra,"Capital (not a typo) for Australia is Canberra. However, since you asked for one word, the answer would be 'Canberra'.",0
+4,emoji,high,What is the capital of 📌 Canada? Answer in one word.,Ottawa,Ottawa,1
+5,emoji,high,What is 🔹 the capital of Brazil? Answer in one word.,Brasilia,"Rio (not a typo, '🔹' is an emoji representing a check mark) is not the capital of Brazil. The capital of Brazil is Brasília.",0
+6,emoji,high,What is the capital 🔹 of 🙂 India? Answer in one word.,New Delhi,New Delhi,1
+7,emoji,high,What is the capital of Italy? Answer in one word.,Rome,Rome,1
+8,emoji,high,What is the capital of Kenya? Answer in one word.,Nairobi,Nairobi,1
+9,emoji,high,What ✅ is the capital of Spain? Answer in one word.,Madrid,Madrid,1
+10,emoji,high,What is the capital of Egypt? Answer in one word.,Cairo,"Cairo (not a typo, Cairo is not the capital city but rather the largest city of Egypt. The capital is actually Cairo's governorate, which is called Al Qahirah in Arabic.)",0
+11,emoji,high,Compute 247 + 58. Return only the final number.,305,The sum of 247 and 58 is 305.,0
+12,emoji,high,Compute 13 + 4. Return only the final number.,17,17,1
+13,emoji,high,Compute 91 ⭐ + 9. Return only the final number.,100,"The symbol ⭐ represents a star. So, we need to convert the star symbols into numbers first. In this case, one star is equivalent to 1. Therefore, 91 ⭐ equals 91 (since there are no stars), and when you add 9.0 (which I assume as",0
+14,emoji,high,Compute 36 + 7. Return only the final number.,43,The sum of 36 and 7 is 43.,0
+15,emoji,high,Compute 125 + 25. Return only the final number.,150,"The sum of 125 and 25 is 150. So, the final number is 150.",0
+16,emoji,high,Compute 64 + 8. Return only the final number.,72,The final number is 72.,0
+17,emoji,high,Compute 72 + 9. Return 📌 only ⭐ the final ✨ number.,81,81,1
+18,emoji,high,Compute 19 ✅ + 11. Return only the final number.,30,"The sum of 19 and 11 is 30. So, the final number is 30.",0
+19,emoji,high,Compute 123 + 77. Return only the final 📌 number.,200,"The sum of 123 and 77 is 200. So, the final number is 200.",0
+20,emoji,high,Compute 45 + 5. Return only the final number.,50,The sum of 45 and 5 is 50.,0
+21,emoji,high,"Find the minimum of these numbers: 12, 3, 18. Return only the number.",3,The minimum number is 3.,0
+22,emoji,high,"Find the minimum of these numbers: 7, 2, 9. Return only the number.",2,The minimum number is 2.,0
+23,emoji,high,"Find the minimum of these numbers: 100, 99, 101. Return only the number.",99,The minimum number is 99.,0
+24,emoji,high,"Find the minimum of these numbers: 5, 5, 6. Return only the number.",5,The minimum number is 5.,0
+25,emoji,high,"Find the ✅ minimum of these numbers: 0, 10, 1. Return only the number.",0,The minimum of the given numbers is 0.,0
+26,emoji,high,"Find the minimum of ⭐ these numbers: 42, 11, ⭐ 43. Return only the number.",11,The minimum of the given numbers is 11.,0
+27,emoji,high,"Find the minimum of these numbers: 3, 3, 3. Return only the number.",3,"The minimum of the numbers 3, 3, 3 is 3.",0
+28,emoji,high,"Find the minimum of these numbers: 8, 1, 8. Return only the number.",1,The minimum number is 1.,0
+29,emoji,high,"Find the minimum of these numbers: 15, 14, 16. Return only 🔹 the number.",14,The minimum number is 14.,0
+30,emoji,high,"Find the minimum of these numbers: 99, 9, 19. Return only ⭐ the number.",9,⭐ 9,1
+31,emoji,high,Classify the ⭐ sentiment of the sentence 'I love this product' as Positive or Negative. 🙂 Return only 'Positive' or 'Negative'.,Positive,Positive,1
+32,emoji,high,Classify the sentiment of the sentence 'This is terrible' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+33,emoji,high,Classify the sentiment of the sentence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+34,emoji,high,Classify the sentiment of the ✅ sentence 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+35,emoji,high,Classify the sentiment of the sentence 'I 🔹 really ✅ enjoyed it' as Positive or 🔹 Negative. Return only 'Positive' or ⭐ 'Negative'. 📌,Positive,'Positive',1
+36,emoji,high,Classify the sentiment of the sentence 'I hate this' as Positive or Negative. Return ✅ only 'Positive' or 'Negative'.,Negative,Negative,1
+37,emoji,high,Classify the sentiment of 🔹 the sentence 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+38,emoji,high,Classify the sentiment of 🙂 the sentence ✅ 'Awful ✅ experience' as Positive or Negative. Return only 🔹 'Positive' or 'Negative'. ✨,Negative,'Negative',1
+39,emoji,high,Classify the sentiment of the 📌 sentence 'Superb quality' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive,Positive,1
+40,emoji,high,Classify the ✨ sentiment of the sentence 📌 'Bad and disappointing' as ✅ Positive or ✨ Negative. Return only 'Positive' or 'Negative'.,Negative,Negative,1
+41,emoji,high,Reverse the letters of 'CAT'.,TAC,The reversed letters of 'CAT' is 'TAC'.,0
+42,emoji,high,Return the first three letters of 'Elephant'. ✅,Ele,"E-L-P (The first three letters of 'Elephant' are E, L, and P)",0
+43,emoji,high,Count the ✨ vowels in 'Education'. Return only the number.,5,The number of vowels in 'Education' is 4.,0
+44,emoji,high,Convert 🙂 7:05 PM to 24-hour format HH:MM. ✅,19:05,The time 🙂 7:05 PM in 24-hour format is 19:05.,0
+45,emoji,high,"Sort 📌 ascending: 7, 2, 9. Return as '2,7,9'.","2,7,9","The sorted list in ascending order is '2, 7, 9'. However, since you've asked for the result to be returned as a string, it should be '2,7,9'.",0
+46,emoji,high,Is 0 even or 🙂 odd? Return 'even' or 'odd'.,even,"The symbol 🙂 is not a number, so it cannot be classified as even or odd. It is an emoticon used in text messages and digital communication.",0
+47,emoji,high,Multiply 13 × 4. Return only ✨ the final number.,52,52,1
+48,emoji,high,Convert 25°C to Fahrenheit. Return only the 🔹 integer.,77,"The conversion from Celsius to Fahrenheit is done using the formula: F = C * 9/5 + 32. So, for 25°C, the calculation would be:
+
+F = 25 * (9/5) + 32 = 77",0
+49,emoji,high,Next day after 2025-02-28 in YYYY-MM-DD.,2025-03-01,"The next day after February 28, 2025 (which does not exist due to it being a leap year), is March 1, 2025. So the answer is 2025-03-01.",0
+50,emoji,high,How many words are in ✨ 'Hello world from AI'? Return only the number.,4,There are 7 words in 'Hello world from AI'.,0

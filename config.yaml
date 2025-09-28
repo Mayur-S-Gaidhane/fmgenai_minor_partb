@@ -1,0 +1,14 @@
+# Ollama-first config. 'model' here is ignored when PROVIDER=ollama.
+provider: ENV
+model: gpt-4o-mini
+temperature: 0.2
+max_tokens: 64
+
+languages:
+  L1: en
+  L2: mr
+  L3: hinglish
+  CS: mixed
+
+model_max_context_tokens: 16000
+target_context_tokens: 10000

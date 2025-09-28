@@ -1,0 +1,37 @@
+id,condition,prompt,gold,prediction,correct,fluency
+1,L1EN,What is the capital of Japan? Answer in English only.,Tokyo,The capital of Japan is Tokyo.,0,
+2,L1EN,Compute 247 + 58. Give only the final number in English digits.,305,Two hundred forty-seven plus fifty-eight equals three hundred twenty-five.,0,
+3,L1EN,Is 113 a prime number? Answer with 'prime' or 'composite'.,prime,Prime,1,
+4,L1EN,Sort these numbers in ascending order: 7,9'.,"The sorted list of the number 7, in ascending order, is:
+
+1. 7
+
+This list is sorted because each number is smaller than or equal to the next one, and there are no duplicate numbers.",0,
+5,L1EN,Convert 5 kilometers to meters. Return only the number.,5000,5000,1,
+6,L1EN,Convert 25°C to Fahrenheit. Return only the integer.,77,77 (unsure: The conversion from Celsius to Fahrenheit is approximate when the temperature is above 100°F or below -40°F due to rounding errors.),0,
+1,L2MR,जपानची राजधानी कोणती? उत्तर फक्त इंग्रजीत द्या.,Tokyo,Japan's capital city is Tokyo. (Japan's capital city is Tokyo.),0,
+2,L2MR,247 + 58 ची बेरीज करा. फक्त अंतिम संख्या इंग्रजी अंकात द्या.,305,"The sum of 247 and 58 is 305. In English, the answer is Three hundred and five.",0,
+3,L2MR,113 अभाज्य संख्या आहे का? फक्त 'prime' किंवा 'composite' असे उत्तर द्या.,prime,The number 113 is a prime number.,0,
+4,L2MR, 2,9'.,"Understood. I will answer in English and follow the specified output format. If I am uncertain about an answer, I will say 'unsure'.
+
+Your question does not contain a specific request for me to perform a task or provide information. Therefore, I do not have a response at this time. Please ask",0,
+5,L2MR,5 किमी मीटरमध्ये रूपांतरित करा. फक्त संख्या द्या.,5000,"To convert 5 kilometers to meters, multiply the number of kilometers by 1000.
+
+So, 5 kilometers = 5 * 1000 = 5000 meters.",0,
+6,L2MR,25°C चे फॅरेनहाइट मध्ये रूपांतर करा. फक्त पूर्णांक द्या.,77,25 degrees Celsius is equal to 77.0 degrees Fahrenheit. (Exact conversion formula: F = C * 9/5 + 32),0,
+1,L3HINGLISH,Japan ki rajdhani kya hai? Answer English mein do.,Tokyo,Japan's capital is Tokyo.,0,
+2,L3HINGLISH,247 + 58 ka sum nikalo. Sirf final number English digits mein do.,305,"The sum of 247 and 58,000 is 58,247. Only English digits are provided in the answer.",0,
+3,L3HINGLISH,113 prime number hai kya? Bas 'prime' ya 'composite' bolo.,prime,"Unsure. I need to check if 113 is a prime number or not. Let me calculate that for you.
+
+The definition of a prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. In this case, the factors of 1",0,
+4,L3HINGLISH, 9. Return as '2,9'.,2,0,
+5,L3HINGLISH,5 kilometers ko meters mein convert karo. Sirf number do.,5000,5000 (meters),0,
+6,L3HINGLISH,25°C ko Fahrenheit mein convert karo. Sirf integer do.,77,77 degrees Fahrenheit,0,
+1,CSMIXED,जपानची capital kya hai? Please answer in English only.,Tokyo,Japan's capital is Tokyo.,0,
+2,CSMIXED,कृपया 247 + 58 add karo aur answer English digits mein hi do.,305,The sum of 247 and 58 is 305.,0,
+3,CSMIXED,113 prime hai kya? उत्तर सिर्फ 'prime' ya 'composite' me do.,prime,"No, 113 is not a prime number. It is composite because it can be divided evenly by numbers other than 1 and itself (for example, 113 can be divided by 1, 3, 41, and 113).",0,
+4,CSMIXED,7,9'.,"Understood. Here's my response:
+
+7 is a number, specifically it's the seventh positive integer. It follows 6 and precedes 8 in a sequence. In mathematics, it has several interesting properties such as being a prime number when it is not divisible by any other integers",0,
+5,CSMIXED,5 km ko meters mein बदला aur sirf number return karo.,5000,3000 (5 kilometers converted to meters),0,
+6,CSMIXED,25°C ko Fahrenheit mein convert karke बस integer output karo.,77,"The conversion of 25 degrees Celsius to Fahrenheit is (25 * 9/5) + 32, which equals 77 degrees Fahrenheit. However, as a precise assistant, I will provide the integer part only: 77 (degrees Fahrenheit).",0,

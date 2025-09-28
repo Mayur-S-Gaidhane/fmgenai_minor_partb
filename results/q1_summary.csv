@@ -1,0 +1,5 @@
+condition,n,accuracy,ci_lo,ci_hi
+L1EN,20,0.1,0.0,0.25
+L2MR,20,0.05,0.0,0.15
+L3HINGLISH,20,0.0,0.0,0.0
+CSMIXED,20,0.0,0.0,0.0

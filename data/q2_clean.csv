@@ -1,0 +1,51 @@
+id,task,prompt_in,gold
+1,capitals,What is the capital of France? Answer in one word.,Paris
+2,capitals,What is the capital of Japan? Answer in one word.,Tokyo
+3,capitals,What is the capital of Australia? Answer in one word.,Canberra
+4,capitals,What is the capital of Canada? Answer in one word.,Ottawa
+5,capitals,What is the capital of Brazil? Answer in one word.,Brasilia
+6,capitals,What is the capital of India? Answer in one word.,New Delhi
+7,capitals,What is the capital of Italy? Answer in one word.,Rome
+8,capitals,What is the capital of Kenya? Answer in one word.,Nairobi
+9,capitals,What is the capital of Spain? Answer in one word.,Madrid
+10,capitals,What is the capital of Egypt? Answer in one word.,Cairo
+11,arithmetic_add,Compute 247 + 58. Return only the final number.,305
+12,arithmetic_add,Compute 13 + 4. Return only the final number.,17
+13,arithmetic_add,Compute 91 + 9. Return only the final number.,100
+14,arithmetic_add,Compute 36 + 7. Return only the final number.,43
+15,arithmetic_add,Compute 125 + 25. Return only the final number.,150
+16,arithmetic_add,Compute 64 + 8. Return only the final number.,72
+17,arithmetic_add,Compute 72 + 9. Return only the final number.,81
+18,arithmetic_add,Compute 19 + 11. Return only the final number.,30
+19,arithmetic_add,Compute 123 + 77. Return only the final number.,200
+20,arithmetic_add,Compute 45 + 5. Return only the final number.,50
+21,min_list,"Find the minimum of these numbers: 12, 3, 18. Return only the number.",3
+22,min_list,"Find the minimum of these numbers: 7, 2, 9. Return only the number.",2
+23,min_list,"Find the minimum of these numbers: 100, 99, 101. Return only the number.",99
+24,min_list,"Find the minimum of these numbers: 5, 5, 6. Return only the number.",5
+25,min_list,"Find the minimum of these numbers: 0, 10, 1. Return only the number.",0
+26,min_list,"Find the minimum of these numbers: 42, 11, 43. Return only the number.",11
+27,min_list,"Find the minimum of these numbers: 3, 3, 3. Return only the number.",3
+28,min_list,"Find the minimum of these numbers: 8, 1, 8. Return only the number.",1
+29,min_list,"Find the minimum of these numbers: 15, 14, 16. Return only the number.",14
+30,min_list,"Find the minimum of these numbers: 99, 9, 19. Return only the number.",9
+31,sentiment,Classify the sentiment of the sentence 'I love this product' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive
+32,sentiment,Classify the sentiment of the sentence 'This is terrible' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative
+33,sentiment,Classify the sentiment of the sentence 'Absolutely fantastic!' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive
+34,sentiment,Classify the sentiment of the sentence 'Not good at all' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative
+35,sentiment,Classify the sentiment of the sentence 'I really enjoyed it' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive
+36,sentiment,Classify the sentiment of the sentence 'I hate this' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative
+37,sentiment,Classify the sentiment of the sentence 'It was okay' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive
+38,sentiment,Classify the sentiment of the sentence 'Awful experience' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative
+39,sentiment,Classify the sentiment of the sentence 'Superb quality' as Positive or Negative. Return only 'Positive' or 'Negative'.,Positive
+40,sentiment,Classify the sentiment of the sentence 'Bad and disappointing' as Positive or Negative. Return only 'Positive' or 'Negative'.,Negative
+41,string_ops,Reverse the letters of 'CAT'.,TAC
+42,string_ops,Return the first three letters of 'Elephant'.,Ele
+43,string_ops,Count the vowels in 'Education'. Return only the number.,5
+44,string_ops,Convert 7:05 PM to 24-hour format HH:MM.,19:05
+45,string_ops,"Sort ascending: 7, 2, 9. Return as '2,7,9'.","2,7,9"
+46,string_ops,Is 0 even or odd? Return 'even' or 'odd'.,even
+47,string_ops,Multiply 13 × 4. Return only the final number.,52
+48,string_ops,Convert 25°C to Fahrenheit. Return only the integer.,77
+49,string_ops,Next day after 2025-02-28 in YYYY-MM-DD.,2025-03-01
+50,string_ops,How many words are in 'Hello world from AI'? Return only the number.,4

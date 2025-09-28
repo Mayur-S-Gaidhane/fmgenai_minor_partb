@@ -1,0 +1,6 @@
+noise_type,high,low,na
+clean,0.36,0.36,0.36
+confusables,0.32,0.44,
+emoji,0.42,0.36,
+spacing,0.32,0.34,
+typos,0.22,0.32,
