@@ -1,4 +1,4 @@
-# FMGenAI Minor par B —  (Q1, Q2 )
+# FMGenAI Minor part B —  (Q1, Q2 )
 
 
 # FMGenAI Minor Part B — Ollama-only (Windows-friendly)
