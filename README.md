@@ -1,4 +1,4 @@
-# FMGenAI Minor par B —  (Q1, Q2, Q3)
+# FMGenAI Minor par B —  (Q1, Q2 )
 
 
 # FMGenAI Minor Part B — Ollama-only (Windows-friendly)
@@ -86,7 +86,11 @@ python -m src.evaluate_q2 --config config.yaml --intervention prompt --quick
 
 # Fluemcy analysis 
 python fluency_sampler.py     --- Print out 10 rows per condition in the terminal to check fluency
+
 python fluency_avg.py         --- This gives you a clean table output of Avg_fluency 
+
 python test.py                --- To check what flency score read by pandas if fluency score none .
+
 python fluency_probe_and_avg.py --- it will list out 6 columes value to in first 5 row in q1_results.csv
+
 python merge_q1_tables.py     --- It is combine output table of q1_summary.csv and q1_fluency_summary.csv.
