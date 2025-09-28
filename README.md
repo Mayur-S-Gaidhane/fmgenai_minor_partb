@@ -84,7 +84,7 @@ python -m src.evaluate_q2 --config config.yaml --intervention prompt --quick
 # full run Q1 and Q2 together :
 .\run.bat
 
-# Fluemcy analysis 
+# Fluency analysis 
 python fluency_sampler.py     --- Print out 10 rows per condition in the terminal to check fluency
 
 python fluency_avg.py         --- This gives you a clean table output of Avg_fluency 
