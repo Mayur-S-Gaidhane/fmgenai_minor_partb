@@ -46,7 +46,7 @@ results/
 plots/
   ...figures...
 report/
-  report_outline.md    # Outline for your PDF
+  report_outline.md    # Outline for report PDF
 README.md
 config.yaml
 run.sh
